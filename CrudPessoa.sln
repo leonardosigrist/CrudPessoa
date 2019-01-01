@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pessoa.Entity", "Pessoa.Domain\Pessoa.Entity.csproj", "{12FAFAC2-0A24-4DF2-871A-41FB660101E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pessoa.Entity", "Pessoa.Entity\Pessoa.Entity.csproj", "{12FAFAC2-0A24-4DF2-871A-41FB660101E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pessoa.Service.Test", "Pessoa.Domain.Test\Pessoa.Service.Test.csproj", "{FC43B296-76C8-47F4-B777-AFA2C8D7C54B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pessoa.Service.Test", "Pessoa.Service.Test\Pessoa.Service.Test.csproj", "{FC43B296-76C8-47F4-B777-AFA2C8D7C54B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pessoa.Service", "Pessoa.Service\Pessoa.Service.csproj", "{B1A8DC55-2A6D-442F-9B3E-43DA7B154341}"
 EndProject
