@@ -5,10 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Pessoa.Entity;
 using Pessoa.Repository;
-using Pessoa.Service;
-using System;
 
 namespace Pessoa.Api
 {
@@ -24,7 +21,7 @@ namespace Pessoa.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IPessoaService, PessoaService>();
+            services.AddTransient<IPessoaRepository, PessoaRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
